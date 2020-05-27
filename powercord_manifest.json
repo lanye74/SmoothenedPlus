@@ -1,0 +1,11 @@
+{
+	"name": "Smoothened",
+	"description": "A compilation of themes designed to benefit Smoothened",
+
+	"author": "LayneTheEpic#9891",
+
+	"version": "1.0.0",
+	"license": "MIT",
+
+	"theme": "theme.css"
+}

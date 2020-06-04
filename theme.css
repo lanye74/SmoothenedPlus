@@ -12,25 +12,25 @@
 /* Config */
 
 :root {
-	--transition-time: 0.2s;
-	--indicator-size: 2px;
+	--smoothened-plus-transition-time: 0.2s;
+	--smoothened-plus-indicator-size: 2px;
 	
 	--blurple: #7289da;
 
-	--channel-focused: #7289da1d;
-	--channel-focused-hover: #7289da2d;
+	--smoothened-plus-channel-focused: #7289da1d;
+	--smoothened-plus-channel-focused-hover: #7289da2d;
 
 	/* Dark mode */
 
-	--channel-unread-marker: #fffa;
-	--channel-unread: #ffffff0a;
-	--channel-unread-hover: #ffffff20; 
+	--smoothened-plus-channel-unread-marker: #fffa;
+	--smoothened-plus-channel-unread: #ffffff0a;
+	--smoothened-plus-channel-unread-hover: #ffffff20; 
 
 	/* Light mode */
 
-	--l-channel-unread-marker: #000a;
-	--l-channel-unread: #0000000a;
-	--l-channel-unread-hover: #00000020;
+	--smoothened-plus-l-channel-unread-marker: #000a;
+	--smoothened-plus-l-channel-unread: #0000000a;
+	--smoothened-plus-l-channel-unread-hover: #00000020;
 }
 
 
@@ -54,49 +54,49 @@
 	left: 0;
 	margin: 0;
 	
-	background: var(--channel-unread-marker);
+	background: var(--smoothened-plus-channel-unread-marker);
 	
-	width: var(--indicator-size);
+	width: var(--smoothened-plus-indicator-size);
 }
 
 /* Add light theme colors (-l- prefix means light mode) */
 
 html.theme-light .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA > .unread-3zKkbm {
-	background: var(--l-channel-unread-marker);
+	background: var(--smoothened-plus-l-channel-unread-marker);
 }
 
 .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA > .content-3at_AU {
-	background: var(--channel-unread);
+	background: var(--smoothened-plus-channel-unread);
 }
 
 html.theme-light .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA > .content-3at_AU {
-	background: var(--l-channel-unread);
+	background: var(--smoothened-plus-l-channel-unread);
 }
 
 .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA:hover > .content-3at_AU {
-	background: var(--channel-unread-hover);
+	background: var(--smoothened-plus-channel-unread-hover);
 }
 
 html.theme-light .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA:hover > .content-3at_AU {
-	background: var(--l-channel-unread-hover);
+	background: var(--smoothened-plus-l-channel-unread-hover);
 }
 
 
 .content-3at_AU { /* Create space for marker */
-	margin-left: calc(var(--indicator-size) + 2px);
+	margin-left: calc(var(--smoothened-plus-indicator-size) + 2px);
 }
 
 .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ { /* Make an identical marker for selected channel, via border (since there's no marker element */
-	border-left: solid var(--indicator-size) var(--blurple);
+	border-left: solid var(--smoothened-plus-indicator-size) var(--blurple);
 }
 
 .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ > .content-3at_AU { /* focused channel color */
-	background: var(--channel-focused); /* works for both themes, no worries */
+	background: var(--smoothened-plus-channel-focused); /* works for both themes, no worries */
 	margin: 0;
 }
 
 .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_:hover > .content-3at_AU { /* Same for hover */
-	background: var(--channel-focused-hover) !important; /* also works for both themes */
+	background: var(--smoothened-plus-channel-focused-hover) !important; /* also works for both themes */
 }
 /* #endregion */
 

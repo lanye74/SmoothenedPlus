@@ -83,7 +83,7 @@ html.theme-light .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA:hover >
 
 
 .content-3at_AU { /* Create space for marker */
-	margin-left: calc(var(--smoothened-plus-indicator-size) + 2px);
+	margin-left: var(--smoothened-plus-indicator-size);
 }
 
 .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ { /* Make an identical marker for selected channel, via border (since there's no marker element */

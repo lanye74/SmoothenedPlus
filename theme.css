@@ -1,6 +1,6 @@
 /**
   * @name SmoothenedPlus
-  * @version 1.0.2
+  * @version 1.0.3
   * @description A compilation of re-written themes, designed to benefit Smoothened. Full credit list below.
   * @source https://github.com/LayneTheEpic/SmoothenedPlus
   * @authorId 393898580177321985
@@ -37,16 +37,17 @@
 /* Modern Indicators, from hellbound */
 
 /* #region */
-.iconVisibility-1bOqu7.wrapper-1ucjTd { /* The channel name gets rounded */
+.iconVisibility-sTNpHs.wrapper-2jXpOf { /* The channel name gets rounded */
 	padding: 0;
 	border-radius: 0 4px 4px 0;
 }
 
-.content-3at_AU {	
+.content-1x5b-n {	
+	height: 100%;
 	border-radius: 0 4px 4px 0; /* so do the innards */
 }
 
-.iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA > .unread-3zKkbm { /* Create the marker */
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .unread-2lAfLh { /* Create the marker */
 	border-radius: 0;
 	
 	height: 100%;
@@ -61,41 +62,42 @@
 
 /* Add light theme colors (-l- prefix means light mode) */
 
-html.theme-light .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA > .unread-3zKkbm {
+html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .unread-2lAfLh {
 	background: var(--smoothened-plus-l-channel-unread-marker);
 }
 
-.iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA > .content-3at_AU {
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .content-1x5b-n {
 	background: var(--smoothened-plus-channel-unread);
 }
 
-html.theme-light .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA > .content-3at_AU {
+html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .content-1x5b-n {
 	background: var(--smoothened-plus-l-channel-unread);
 }
 
-.iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA:hover > .content-3at_AU {
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover > .content-1x5b-n {
 	background: var(--smoothened-plus-channel-unread-hover);
 }
 
-html.theme-light .iconVisibility-1bOqu7.wrapper-1ucjTd.modeUnread-1zpFdA:hover > .content-3at_AU {
+html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover > .content-1x5b-n {
 	background: var(--smoothened-plus-l-channel-unread-hover);
 }
 
 
-.content-3at_AU { /* Create space for marker */
+.content-1x5b-n { /* Create space for marker */
 	margin-left: var(--smoothened-plus-indicator-size);
 }
 
-.iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ { /* Make an identical marker for selected channel, via border (since there's no marker element */
+
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 { /* Make an identical marker for selected channel, via border (since there's no marker element */
 	border-left: solid var(--smoothened-plus-indicator-size) var(--blurple);
 }
 
-.iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ > .content-3at_AU { /* focused channel color */
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 > .content-1x5b-n { /* focused channel color */
 	background: var(--smoothened-plus-channel-focused); /* works for both themes, no worries */
 	margin: 0;
 }
 
-.iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_:hover > .content-3at_AU { /* Same for hover */
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90:hover > .content-1x5b-n { /* Same for hover */
 	background: var(--smoothened-plus-channel-focused-hover) !important; /* also works for both themes */
 }
 /* #endregion */

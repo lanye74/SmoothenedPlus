@@ -106,7 +106,7 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 /* Harmony Indicators by Kraken */
 
 /* #region */
-.iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP, /* Audio from server icon */
+.iconBadge-3qSJIw.iconBadge-2NuvG9, /* Audio from server icon */
 .numberBadge-2s8kKX, /* Noti amount */
 .iconBadge-qZ4Ksk /* Pin mark */
 {
@@ -114,13 +114,13 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 }
 
 .icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
-.circleIconButton-jET_ig, /* Server discovery, create/join */
+.circleIconButton-1QV--U, /* Server discovery, create/join */
 .strikethrough-1n4ekb /* Strikethrough on mute, deafen */
 {
 	color: var(--blurple);
 }
 
-.circleIconButton-jET_ig:hover, .circleIconButton-jET_ig.selected-ugP_am { /* Add hovers for 'create a new server', discovery */
+.circleIconButton-1QV--U:hover, .circleIconButton-1QV--U.selected-ugP_am { /* Add hovers for 'create a new server', discovery */
 	background-color: var(--blurple);
 	color: var(--interactive-active);
 }

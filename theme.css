@@ -105,12 +105,6 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 
 /* Harmony Indicators by Kraken */
 
-:root {
-	--focus-primary: var(--blurple) !important;
-	--text-link: var(--blurple) !important;
-	--info-help-foreground: var(--blurple) !important;
-}
-
 /* #region */
 .iconBadge-3qSJIw.iconBadge-2NuvG9, /* Audio from server icon */
 .numberBadge-2s8kKX, /* Noti amount */

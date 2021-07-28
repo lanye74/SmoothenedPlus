@@ -83,7 +83,7 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 }
 
 
-.content-1x5b-n { /* Create space for marker */
+.iconVisibility-sTNpHs:not(.typeThread-3ESTm-) .content-1x5b-n { /* Create space for marker */
 	margin-left: var(--smoothened-plus-indicator-size);
 }
 
@@ -94,12 +94,20 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 
 .iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 > .content-1x5b-n { /* focused channel color */
 	background: var(--smoothened-plus-channel-focused); /* works for both themes, no worries */
+	
+}
+
+.iconVisibility-sTNpHs.wrapper-2jXpOf:not(.typeThread-3ESTm-).modeSelected-346R90 > .content-1x5b-n {
 	margin: 0;
 }
 
 .iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90:hover > .content-1x5b-n { /* Same for hover */
 	background: var(--smoothened-plus-channel-focused-hover) !important; /* also works for both themes */
 }
+
+
+
+
 /* #endregion */
 
 

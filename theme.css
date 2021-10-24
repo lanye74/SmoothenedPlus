@@ -4,7 +4,7 @@
   * @description A compilation of re-written themes, designed to benefit Smoothened. Full credit list below.
   * @source https://github.com/LayneTheEpic/SmoothenedPlus
   * @authorId 393898580177321985
-  * @author LayneTheEpic#9891
+  * @author lanye#8909
   * @license MIT
   **/
 
@@ -14,7 +14,7 @@
 :root {
 	--smoothened-plus-transition-time: 0.2s;
 	--smoothened-plus-indicator-size: 2px;
-	
+
 	--blurple: #5865f2;
 
 	--smoothened-plus-channel-focused: #5865f21d;
@@ -24,7 +24,7 @@
 
 	--smoothened-plus-channel-unread-marker: #fffa;
 	--smoothened-plus-channel-unread: #ffffff0a;
-	--smoothened-plus-channel-unread-hover: #ffffff20; 
+	--smoothened-plus-channel-unread-hover: #ffffff20;
 
 	/* Light mode */
 
@@ -42,21 +42,21 @@
 	border-radius: 0 4px 4px 0;
 }
 
-.content-1x5b-n {	
+.content-1x5b-n {
 	height: 100%;
 	border-radius: 0 4px 4px 0; /* so do the innards */
 }
 
 .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .unread-2lAfLh { /* Create the marker */
 	border-radius: 0;
-	
+
 	height: 100%;
 	top: 0;
 	left: 0;
 	margin: 0;
-	
+
 	background: var(--smoothened-plus-channel-unread-marker);
-	
+
 	width: var(--smoothened-plus-indicator-size);
 }
 
@@ -94,7 +94,7 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 
 .iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 > .content-1x5b-n { /* focused channel color */
 	background: var(--smoothened-plus-channel-focused); /* works for both themes, no worries */
-	
+
 }
 
 .iconVisibility-sTNpHs.wrapper-2jXpOf:not(.typeThread-3ESTm-).modeSelected-346R90 > .content-1x5b-n {
@@ -142,7 +142,7 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 /* Snippet from emma- fix loading emojis, Discord uses png by default, why?? */
 
 /* #region */
-.emojiItem-14v6tW .emojiItemImageLoading-1yEIxx { 
+.emojiItem-14v6tW .emojiItemImageLoading-1yEIxx {
 	background-image: none;
 	background-color: var(--background-primary);
 	border-radius: 30%;

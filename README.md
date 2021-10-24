@@ -5,7 +5,7 @@ This is a compilation of themes designed to benefit [Smoothened](https://github.
 Please note that they have all been re-written so they are easier to adapt to Smoothened.
 
 
-## Any theme not in this list was an idea of my own. Whether or not it's been done, it probably has. *Too bad.*
+Any theme not in this list was an idea of my own. Whether or not it's been done, it probably has. Too bad.
 
 
 Current theme/snippet list:

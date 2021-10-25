@@ -1,6 +1,6 @@
 /**
   * @name SmoothenedPlus
-  * @version 1.0.3
+  * @version 1.0.4
   * @description A compilation of re-written themes, designed to benefit Smoothened. Full credit list below.
   * @source https://github.com/LayneTheEpic/SmoothenedPlus
   * @authorId 393898580177321985
@@ -34,9 +34,9 @@
 }
 
 
+
 /* Modern Indicators, from hellbound */
 
-/* #region */
 .iconVisibility-sTNpHs.wrapper-2jXpOf { /* The channel name gets rounded */
 	padding: 0;
 	border-radius: 0 4px 4px 0;
@@ -88,7 +88,7 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 }
 
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 { /* Make an identical marker for selected channel, via border (since there's no marker element */
+.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 { /* Make an identical marker for selected channel, via border (since there's no marker element) */
 	border-left: solid var(--smoothened-plus-indicator-size) var(--blurple);
 }
 
@@ -107,13 +107,8 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 
 
 
-
-/* #endregion */
-
-
 /* Harmony Indicators by Kraken */
 
-/* #region */
 .iconBadge-2NuvG9, /* Audio from server icon */
 .numberBadge-2s8kKX, /* Noti amount */
 .iconBadge-qZ4Ksk /* Pin mark */
@@ -136,15 +131,13 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 .item-2hkk8m { /* Server 'pills' */
 	background-color: var(--blurple) !important;
 }
-/* #endregion */
+
 
 
 /* Snippet from emma- fix loading emojis, Discord uses png by default, why?? */
 
-/* #region */
 .emojiItem-14v6tW .emojiItemImageLoading-1yEIxx {
 	background-image: none;
 	background-color: var(--background-primary);
 	border-radius: 30%;
 }
-/* #endregion */

@@ -117,13 +117,13 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 }
 
 .icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
-.circleIconButton-1XqULR, /* Server discovery, create/join */
+.circleIconButton-hZmpE8, /* Server discovery, create/join */
 .strikethrough-1n4ekb /* Strikethrough on mute, deafen */
 {
 	color: var(--blurple);
 }
 
-.circleIconButton-1XqULR:hover, .circleIconButton-1XqULR.selected-ugP_am { /* Add hovers for 'create a new server', discovery */
+.circleIconButton-hZmpE8:hover, .circleIconButton-hZmpE8.selected-ugP_am { /* Add hovers for 'create a new server', discovery */
 	background-color: var(--blurple);
 	color: var(--interactive-active);
 }
@@ -131,6 +131,10 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 .item-2hkk8m { /* Server 'pills' */
 	background-color: var(--blurple) !important;
 }
+
+/* .unreadBar-3t3sYc {
+	background-color: var(--blurple) !important;
+} */
 
 
 

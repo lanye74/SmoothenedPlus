@@ -1,6 +1,6 @@
 /**
   * @name SmoothenedPlus
-  * @version 1.0.4
+  * @version 1.1.0
   * @description A compilation of re-written themes, designed to benefit Smoothened. Full credit list below.
   * @source https://github.com/LayneTheEpic/SmoothenedPlus
   * @authorId 393898580177321985
@@ -37,17 +37,17 @@
 
 /* Modern Indicators, from hellbound */
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf { /* The channel name gets rounded */
+.iconVisibility-vptxma.wrapper-NhbLHG { /* The channel name gets rounded */
 	padding: 0;
 	border-radius: 0 4px 4px 0;
 }
 
-.content-1x5b-n {
+.content-1gYQeQ {
 	height: 100%;
 	border-radius: 0 4px 4px 0; /* so do the innards */
 }
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .unread-2lAfLh { /* Create the marker */
+.iconVisibility-vptxma.wrapper-NhbLHG.modeUnread-3Cxepe > .unread-36eUEm { /* Create the marker */
 	border-radius: 0;
 
 	height: 100%;
@@ -62,46 +62,46 @@
 
 /* Add light theme colors (-l- prefix means light mode) */
 
-html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .unread-2lAfLh {
+html.theme-light .iconVisibility-vptxma.wrapper-NhbLHG.modeUnread-3Cxepe > .unread-36eUEm {
 	background: var(--smoothened-plus-l-channel-unread-marker);
 }
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .content-1x5b-n {
+.iconVisibility-vptxma.wrapper-NhbLHG.modeUnread-3Cxepe > .content-1gYQeQ {
 	background: var(--smoothened-plus-channel-unread);
 }
 
-html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1 > .content-1x5b-n {
+html.theme-light .iconVisibility-vptxma.wrapper-NhbLHG.modeUnread-3Cxepe > .content-1gYQeQ {
 	background: var(--smoothened-plus-l-channel-unread);
 }
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover > .content-1x5b-n {
+.iconVisibility-vptxma.wrapper-NhbLHG.modeUnread-3Cxepe:hover > .content-1gYQeQ {
 	background: var(--smoothened-plus-channel-unread-hover);
 }
 
-html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover > .content-1x5b-n {
+html.theme-light .iconVisibility-vptxma.wrapper-NhbLHG.modeUnread-3Cxepe:hover > .content-1gYQeQ {
 	background: var(--smoothened-plus-l-channel-unread-hover);
 }
 
 
-.iconVisibility-sTNpHs:not(.typeThread-3ESTm-) .content-1x5b-n { /* Create space for marker */
+.iconVisibility-vptxma:not(.typeThread-2Aqh6X) .content-1gYQeQ { /* Create space for marker */
 	margin-left: var(--smoothened-plus-indicator-size);
 }
 
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 { /* Make an identical marker for selected channel, via border (since there's no marker element) */
+.iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH { /* Make an identical marker for selected channel, via border (since there's no marker element) */
 	border-left: solid var(--smoothened-plus-indicator-size) var(--blurple);
 }
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90 > .content-1x5b-n { /* focused channel color */
+.iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH > .content-1gYQeQ { /* focused channel color */
 	background: var(--smoothened-plus-channel-focused); /* works for both themes, no worries */
 
 }
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf:not(.typeThread-3ESTm-).modeSelected-346R90 > .content-1x5b-n {
+.iconVisibility-vptxma.wrapper-NhbLHG:not(.typeThread-2Aqh6X).modeSelected-3DmyhH > .content-1gYQeQ {
 	margin: 0;
 }
 
-.iconVisibility-sTNpHs.wrapper-2jXpOf.modeSelected-346R90:hover > .content-1x5b-n { /* Same for hover */
+.iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH:hover > .content-1gYQeQ { /* Same for hover */
 	background: var(--smoothened-plus-channel-focused-hover) !important; /* also works for both themes */
 }
 
@@ -110,29 +110,29 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 /* Harmony Indicators by Kraken */
 
 .iconBadge-2NuvG9, /* Audio from server icon */
-.numberBadge-2s8kKX, /* Noti amount */
-.iconBadge-qZ4Ksk /* Pin mark */
+.numberBadge-37OJ3S, /* Noti amount */
+.iconBadge-3Mmg92 /* Pin mark */
 {
 	background-color: var(--blurple) !important;
 }
 
 .icon-3BcwQu.iconServer-3Z_nSE, /* Deafened in VC */
-.circleIconButton-hZmpE8, /* Server discovery, create/join */
-.strikethrough-1n4ekb /* Strikethrough on mute, deafen */
+.circleIconButton-1VxDrg, /* Server discovery, create/join */
+.strikethrough-2Kl6HF /* Strikethrough on mute, deafen */
 {
 	color: var(--blurple);
 }
 
-.circleIconButton-hZmpE8:hover, .circleIconButton-hZmpE8.selected-ugP_am { /* Add hovers for 'create a new server', discovery */
+.circleIconButton-1VxDrg:hover, .circleIconButton-1VxDrg.selected-ugP_am { /* Add hovers for 'create a new server', discovery */
 	background-color: var(--blurple);
 	color: var(--interactive-active);
 }
 
-.item-2hkk8m { /* Server 'pills' */
+.item-2LIpTv { /* Server 'pills' */
 	background-color: var(--blurple) !important;
 }
 
-/* .unreadBar-3t3sYc {
+/* .unreadBar-elBRZx {
 	background-color: var(--blurple) !important;
 } */
 
@@ -140,7 +140,7 @@ html.theme-light .iconVisibility-sTNpHs.wrapper-2jXpOf.modeUnread-1qO3K1:hover >
 
 /* Snippet from emma- fix loading emojis, Discord uses png by default, why?? */
 
-.emojiItem-14v6tW .emojiItemImageLoading-1yEIxx {
+.emojiItem-277VFM .emojiItemImageLoading-1yEIxx {
 	background-image: none;
 	background-color: var(--background-primary);
 	border-radius: 30%;
